@@ -76,7 +76,7 @@ IntegerVector ncran_inq_grps(int ncid) {
 //' ncran_inq_dims(groupids[1])
 //' ncran_close(con)
 // [[Rcpp::export]]
-int ncran_inq_dims(int grpid) {
+IntegerVector ncran_inq_dims(int grpid) {
 
   int ndims;
   nc_inq_ndims(grpid, &ndims);
