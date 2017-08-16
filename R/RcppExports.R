@@ -40,7 +40,7 @@ ncran_close <- function(ncid) {
 #' @export
 #' @examples
 #' f1 <- "S2008001.L3b_DAY_CHL.nc"
-#' f_l3b <- system.file("extdata", "oceandata", f1, package = "ncran)
+#' f_l3b <- system.file("extdata", "oceandata", f1, package = "ncran")
 #' con <- ncran_open(f_l3b)
 #' ncran_inq_grps(con)
 #' ncran_close(con)

@@ -38,7 +38,7 @@ BEGIN_RCPP
 END_RCPP
 }
 // ncran_inq_dims
-int ncran_inq_dims(int grpid);
+IntegerVector ncran_inq_dims(int grpid);
 RcppExport SEXP _ncran_ncran_inq_dims(SEXP grpidSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
