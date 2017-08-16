@@ -1,0 +1,15 @@
+Package: ncran
+Title: Network Common Data Form Tests
+Version: 0.0.1
+Authors@R: person("Michael", "Sumner", email = "mdsumner@gmail.com", role = c("aut", "cre"))
+Description: Simple tests for Network Common Data Form ('NetCDF').
+Depends: R (>= 3.4.0)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    Rcpp 
+LinkingTo: Rcpp
+RoxygenNote: 6.0.1
+Suggests: testthat
+SystemRequirements: netcdf (>= 4.1.1)

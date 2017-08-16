@@ -1,0 +1,12 @@
+.RData
+.Rproj.user
+.Rhistory
+inst/doc
+.httr-oauth
+vignettes/*.R
+.Ruserdata
+src/*.o
+src/*.so
+src/*.dll
+windows
+inst/share

@@ -1,0 +1,9 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^data-raw$
+^README\.Rmd$
+^README-.*\.png$
+^CONDUCT\.md$
+ .*\.yml
+^windows$
+^inst/share$
